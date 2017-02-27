@@ -14,7 +14,7 @@
     },
     "DISPLAY_UNITS": {
       "description": "Choices: mg/dl and mmol. Setting to mmol puts the entire server into mmol mode by default, no further settings needed.",
-      "value": "",
+      "value": "mmol",
       "required": false
     },
     "ENABLE": {
@@ -69,12 +69,12 @@
     },
     "CUSTOM_TITLE": {
       "description": "Customize the name of the website, usually the name of T1.",
-      "value": "",
+      "value": "Patrics blodsocker",
       "required": false
     },
     "THEME": {
       "description": "Possible values default or colors",
-      "value": "",
+      "value": "colors",
       "required": false
     },
     "SHOW_RAWBG": {
@@ -107,11 +107,6 @@
       "value": "never",
       "required": false 
     },
-    "THEME": {
-      "description": "Browser default theme setting vaild settings are default or colors",
-      "value": "default",
-      "required": false 
-    },
     "ALARM_URGENT_HIGH": {
       "description": "Browser default urgent high alarm enabled vaild settings are on or off",
       "value": "on",
@@ -119,37 +114,37 @@
     },
     "ALARM_HIGH": {
       "description": "Browser default high alarm enabled vaild settings are on or off",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "ALARM_LOW": {
       "description": "Browser default low alarm enabled vaild settings are on or off",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "ALARM_URGENT_LOW": {
       "description": "Browser default urgent low alarm enabled vaild settings are on or off",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "ALARM_TIMEAGO_WARN": {
       "description": "Browser default warn after time of last data exceeds ALARM_TIMEAGO_WARN_MINS alarm enabled vaild settings are on or off",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "ALARM_TIMEAGO_WARN_MINS": {
       "description": "Browser default minutes since the last reading to trigger a warning",
-      "value": "15",
+      "value": "999",
       "required": false
     },
     "ALARM_TIMEAGO_URGENT": {
       "description": "Browser default urgent warning after time of last data exceeds ALARM_TIMEAGO_URGENT_MINS alarm enabled vaild settings are on or off",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "ALARM_TIMEAGO_URGENT_MINS": {
       "description": "Browser default minutes since last reading to trigger an urgent alarm",
-      "value": "30",
+      "value": "39990",
       "required": false
     },
     "MAKER_KEY": {
