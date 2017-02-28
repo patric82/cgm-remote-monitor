@@ -102,11 +102,6 @@
       "value": "off",
       "required": false 
     },
-    "SHOW_RAWBG": {
-      "description": "Browser default raw display mode vaild settings are always never or noise",
-      "value": "never",
-      "required": false 
-    },
     "ALARM_URGENT_HIGH": {
       "description": "Browser default urgent high alarm enabled vaild settings are on or off",
       "value": "on",
